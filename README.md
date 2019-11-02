@@ -118,9 +118,7 @@ li {
 }
 ```
 
-You should end-up with the following neat application:
-
-
+You should end-up with the following [neat application](http://autocode.surge.sh/) 
 
 # Call to Action  
 We therefore call you to action, fork the repository and add your contributions so that we can get as large number of variables as possible. This will make automation of code, especially the front-end applications way simpler. We see this as a big step forward towards achieving software development autonomy.  
