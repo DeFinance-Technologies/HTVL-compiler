@@ -1,11 +1,11 @@
-# AutoCode
-Autocode is a project aiming at automating front-end development. We have recently opened up one of our projects for public  contribution, and this page will be used to invite and manage healthy contributions. There have been speculations of whether  front-end will survive automation, since at the core of it is mainly piecing together parts to form a whole of the interface  to which the the user will interact with the back-end functionality of the program.
+# Functional CSS 
+Functional CSS (FCSS) is a project aiming at automating front-end development. We have recently opened up one of our projects for public  contribution, and this page will be used to invite and manage healthy contributions. There have been speculations of whether  front-end will survive automation, since at the core of it is mainly piecing together parts to form a whole of the interface  to which the the user will interact with the back-end functionality of the program.
 
 There have been multitudes of CSS frameworks, content management systems (CMS), among other tools whose aims have been to try  as much as possible to easen front-end preparation. As a growing sofware company, we seem to have identified the flaws that  that have been retarding the process of not only front-end, but also automation of software development in general. 
 
 We have therefore come up with a big picture of the methodology that maps the trajectory in which future software development is likely to follow. We think that failure to begin auto-code generation has been exercebated by the weay we have always looked the tools at hand, as separate entities, rather than making them work together as one thing. By this I mean for instance, there seems to be a close-knit connection between say JavaScript and HTML, and HTML with CSS, both on separate ends. Everty tool be it a new framework or CMS, is either trying to eliminate one, or another, and that has led to a big fail in as far as automating software development is concerned.
 
-The aim of autocode is to combine CSS frameworks with HTML in a single script file. So the general methodoloy is to supply CSS atributes as variables to this script file, which when executed creates an assembled HTML code, fully loaded with all CSS, and even in some cases JavaScript. We have therefore coined a name for this framework -- Hypertext Variables Language
+The aim of FCSS is to combine CSS frameworks with HTML in a single script file. So the general methodoloy is to supply CSS atributes as variables to this script file, which when executed creates an assembled HTML code, fully loaded with all CSS, and even in some cases JavaScript. We have therefore coined a name for this framework -- Hypertext Variables Language
 
 Essentially there are two files that holds the variables, and this is where we need your contributions. A typical project directory looks like the one shown below:
 # ![](https://i.imgur.com/EjHj9t3.png)
@@ -47,7 +47,7 @@ $head
 $deah
 $body
     $(nav dark)
-      $(a '#' navbar-brand AutoCode)
+      $(a '#' navbar-brand FCSS)
       $(form form-inline)
         $(input 'form-control mr-sm-2' search)
         $(btn 'outline-success my-2 my-sm-0' submit Search)
