@@ -1,9 +1,5 @@
 #!/bin/bash
 #=========================================================
-# /*! fcss.io v0.1.0 | MIT License | github.com/iznpiro-gaming/fcss */
-#=========================================================
-
-#=========================================================
 # declare global variables
 #=========================================================
 dec="<!DOCTYPE html>" # document type declaration
@@ -24,8 +20,6 @@ div="<div>"
 vid="</div>"
 nottub="</button>"
 van="</nav>"
-
-#!/bin/bash
 #=========================================================
 # declare local variables
 #=========================================================
@@ -36,25 +30,10 @@ read -r -d '' meta <<- EOM
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 EOM
 
-read -r -d '' links <<- EOM
-    <link rel = "stylesheet" type = "text/css" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel = "stylesheet" type = "text/css" href = "./assets/main.css" />
-EOM
-
 read -r -d '' title <<- EOM
     <title> 
-      Learn AutoCode From the Best 
+      Learn FCSS From the Best 
     </title>
-EOM
-
-read -r -d '' scripts <<- EOM
-    <script type="text/javascript"  src="./scripts/js/index.js"></script>
-EOM
-
-read -r -d '' button <<- EOM
-    btn () {
-        echo "<button class=\"btn btn-$1\">$2</button>"
-    }
 EOM
 
 # Usage: $(btn [option 1 option 2 option 3 option 4]) e.g. $(btn primary submit Delete)
@@ -116,4 +95,12 @@ video () {
 # Usage: $(iframe [source class]) e.g. $(iframe https://giphy.com/embed/3ohzdIuqJoo8QdKlnW giphy-embed)
 iframe () {
     echo "<iframe src=\"$1\" width=\"480\" height=\"222\" frameBorder=\"0\" class=\"$2\" allowFullScreen></iframe>"
+}
+# Usage: $(link [option 1 option 2 option 3]) e.g. $(link stylesheet 'text/css' './assets/main.css')
+link () {
+    echo "<link rel = \"$1\" type = \"$2\" href = \"$3\"/>"
+}
+# Usage: $(script [option 1 option 2 option 3]) e.g. $(script './scripts/js/index.js' 'text/javascript')
+script () {
+    echo "<script src=\"$1\" type=\"$2\"></script>"
 }

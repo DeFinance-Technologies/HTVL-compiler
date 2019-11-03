@@ -1,0 +1,23 @@
+{
+  "name": "cdn-fcss",
+  "version": "v0.1.0",
+  "description": "This CDN holds parameters for functional bootstrap  CSS framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inzpiro-gaming/fcss.git"
+  },
+  "keywords": [
+    "FCSS",
+    "CDN"
+  ],
+  "author": "Inzpiro Gaming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Inzpiro-gaming/fcss/issues"
+  },
+  "homepage": "https://github.com/Inzpiro-gaming/fcss#readme"
+}
