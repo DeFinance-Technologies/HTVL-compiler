@@ -34,8 +34,7 @@ If you do this you will realize the real power of following this methodology fro
 
 ```
 #!/bin/bash
-source ./variables/global.sh
-source ./variables/local.sh
+source fcss-cdn
 indexFilePath=./$prName/public/index.html
 cat > $indexFilePath <<- _EOF_
 $dec
