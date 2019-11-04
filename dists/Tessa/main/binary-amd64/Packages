@@ -1,0 +1,18 @@
+Package: fcss-cdn
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Nicolus Rotich <moinonin@yahoo.co.uk>
+Installed-Size: 13
+Multi-Arch: foreign
+Homepage: <https://nkrtech.com>
+Priority: optional
+Section: devel
+Filename: pool/main/f/fcss-cdn/fcss-cdn_0.1.0_amd64.deb
+Size: 2812
+SHA256: bc33c26d5810064c60e1c281b73648b4ecd7395aab611f79d4060613ebf360a4
+SHA1: e85154d992117c12fd61a435732f763e485fdd93
+MD5sum: eb374487bc13d78ef03de799c8e3518d
+Description: The package converts bootstrap elements to functions
+ The functions are then easily called to convert them to HTVL
+ file which is a shell script. Running this file builds HTML pages.
+
