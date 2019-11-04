@@ -1,5 +1,5 @@
 {
-  "name": "fcss",
+  "name": "fcss-cdn",
   "version": "0.1.0",
   "description": "This package helps you to build faster with CSS frameworks like Bootstrap",
   "main": "index.js",
