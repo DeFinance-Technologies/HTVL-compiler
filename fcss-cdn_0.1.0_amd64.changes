@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sun, 11 Nov 2019 18:57:45 +0300
+Source: fcss-cdn
+Binary: fcss-cdn
+Architecture: source amd64
+Version: 0.1.0
+Distribution: unstable
+Urgency: low
+Maintainer: Nicolus Rotich <moinonin@yahoo.co.uk>
+Changed-By: <moinonin@yahoo.co.uk>
+Description:
+ fcss-cdn   - The package converts bootstrap elements to functions
+Closes: 01
+Changes:
+ fcss-cdn (0.1.0) unstable; urgency=low
+ .
+   * Initial release. Closes: #01
+Checksums-Sha1:
+ 9a5fe9d3dd47208822ac3d1e322903fe26639967 1161 fcss-cdn_0.1.0.dsc
+ d39cfb2a7d13970ba18a9edea53271a6b9ffb183 6442 fcss-cdn_0.1.0.orig.tar.gz
+ a0fddd5458378c1bf3c10dd2f5c060d1347741ed 20 fcss-cdn_0.1.0.diff.gz
+ 21f696b891bf35e45fd63a643621bc8572a09b65 13427 fcss-cdn_0.1.0_amd64.buildinfo
+ e85154d992117c12fd61a435732f763e485fdd93 2812 fcss-cdn_0.1.0_amd64.deb
+Checksums-Sha256:
+ a4454d60597fcb6fa52d44f9ab28c1244fbb942095f1543fef816e9c5e56e018 1161 fcss-cdn_0.1.0.dsc
+ 71e0e8cb5a06f49954cc0784ed3876fe3815650037f4973f3af4710d47a3e44e 6442 fcss-cdn_0.1.0.orig.tar.gz
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec 20 fcss-cdn_0.1.0.diff.gz
+ 241448d84a7a0e0133ec8358ba62e63ad647c12702df1995438019637abfb1b6 13427 fcss-cdn_0.1.0_amd64.buildinfo
+ bc33c26d5810064c60e1c281b73648b4ecd7395aab611f79d4060613ebf360a4 2812 fcss-cdn_0.1.0_amd64.deb
+Files:
+ dd4595cb2d5314d4b599444b4805d4e8 1161 devel optional fcss-cdn_0.1.0.dsc
+ 8712c0b0657c5329bb7da7a651516be3 6442 devel optional fcss-cdn_0.1.0.orig.tar.gz
+ 4a4dd3598707603b3f76a2378a4504aa 20 devel optional fcss-cdn_0.1.0.diff.gz
+ eb35cb042064533e3f0973c218aec070 13427 devel optional fcss-cdn_0.1.0_amd64.buildinfo
+ eb374487bc13d78ef03de799c8e3518d 2812 devel optional fcss-cdn_0.1.0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iMkEAQEKADMWIQRCugBj6WIsealbV2kd5IBemRDUpgUCXb/WXBUcbW9pbm9uaW5A
+eWFob28uY28udWsACgkQHeSAXpkQ1KZ2tgQAlyiQLcwrkU4Bzt4wEZEPYy4pc6tY
+3rz2OpOM1qTntUbjV6K0IreiyNcr+d81qhhQTjreEbxAzsz/x9cpsXSBPdwlkWyY
+Qh0Sw2Fok9KdX7Ltk3Bjop32zTLEMRN79AJ74l3ET9X7zvN2BNj9LJb9kq6lGZ4M
+iT+9A83gzz5ig/4=
+=fnQo
+-----END PGP SIGNATURE-----
