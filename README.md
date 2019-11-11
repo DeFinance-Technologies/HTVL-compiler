@@ -34,7 +34,7 @@ $html
 $head
     $meta
     $(link stylesheet 'text/css' $(bsCdn '4.3.1'))
-    $('Learn Front-End Automation From the Best')
+    $('Learn FCSS From the Best')
 $_head
 $body
     $(nav dark)
