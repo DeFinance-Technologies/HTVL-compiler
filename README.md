@@ -33,33 +33,28 @@ Even though the above code might look longer than the original line, bear in min
 If you do this you will realize the real power of following this methodology from this example. Without forgetting, you will still need a minimal css code for this produce good results. The css code is appended below this code.
 
 ```
-#!/bin/bash
-source fcss-cdn
-indexFilePath=./$prName/public/index.html
-cat > $indexFilePath <<- _EOF_
-$dec
+$htvl
 $html
 $head
-    ${meta[@]}
-    ${links[@]}
-    ${title[@]}
-$deah
+    $meta
+    $(link stylesheet 'text/css' $(bsCdn '4.3.1'))
+    $('Learn Front-End Automation From the Best')
+$_head
 $body
     $(nav dark)
       $(a '#' navbar-brand FCSS)
       $(form form-inline)
         $(input 'form-control mr-sm-2' search)
         $(btn 'outline-success my-2 my-sm-0' submit Search)
-      $morf
-    $van
+      $_form
+    $(nav '' '')
     $(div form-group row)$vid
       $(h 1 app)
-      $(iframe https://giphy.com/embed/3ohzdIuqJoo8QdKlnW giphy-embed)
+      $(iframe $('' '' 'https://giphy.com/embed/3ohzdIuqJoo8QdKlnW' 'giphy-embed)') 
       $(footer 'Copyright &copy; Inzpiro Gaming <script>document.write(getDates())</script>')
-$dybo
-$scripts
-$lmth
-_EOF_
+$_body
+$(scripts '')
+$_html
 
 ```
 Here is the minimal custom CSS code you need:
