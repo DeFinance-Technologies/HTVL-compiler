@@ -108,7 +108,7 @@ li {
 }
 ```
 
-You should end-up with the following [neat application](http://autocode.surge.sh/) 
+You should end-up with the following [neat application](http://fcss.surge.sh/) 
 
 # Current Progress  
 As at now you can clone the project and use it as much as you want. We will appreciate your feedback on you HTVL compiler.  
