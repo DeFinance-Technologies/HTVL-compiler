@@ -1,0 +1,20 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: htvl-compiler
+Source: <https://nkrtech.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     DEBIAN/compat
+           DEBIAN/control
+           DEBIAN/rules
+           usr/bin/htvl-compiler
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     DEBIAN/copyright
+Copyright: : 2019-2020 Nicolus Rotich License:
+License:   __NO_LICENSE__
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
