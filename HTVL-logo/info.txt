@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: kimberley_bl
+font link: https://www.fontspring.com/fonts/typodermic/kimberley
+font author: Typodermic
+font author site: http://typodermicfonts.com/
+Slogan Font: LindenHill-webfont.ttf
+
+icon designer: useiconic.com
+icon designer link: /useiconic.com
+        
+{"bg":"#DCE5FC","icon-gradient-0":"#0015D6","icon-gradient-1":"#0989FB","font":"#041F57","slogan":"#18336b"}
+      
