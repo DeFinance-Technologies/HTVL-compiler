@@ -32,83 +32,76 @@ All you need to do is to create a custom script file with extension htvl and run
 $htvl
 $html
 $head
-    $meta
-    $(link stylesheet 'text/css' $(bsCdn '4.3.1'))
-    $('Learn FCSS From the Best')
+  $meta
+  $(link stylesheet 'text/css' $(bsCdn '4.3.1'))
+  $(link stylesheet 'text/css' '../assets/proto.css')
 $_head
 $body
-    $(nav dark)
-      $(a '#' navbar-brand FCSS)
-      $(form form-inline)
-        $(input 'form-control mr-sm-2' search)
-        $(btn 'outline-success my-2 my-sm-0' submit Search)
-      $_form
-    $(nav '' '')
-    $(div form-group row)$vid
-      $(h 1 app)
-      $(iframe $('' '' 'https://giphy.com/embed/3ohzdIuqJoo8QdKlnW' 'giphy-embed)') 
-      $(footer 'Copyright &copy; Inzpiro Gaming <script>document.write(getDates())</script>')
+$(div 'main-container')
+  $(nav 'navbar navbar-dark bg-dark')
+    $(a 'navbar-brand' '')$_a
+    $(form 'form-inline')
+      $(input 'form-control mr-sm-2' '' 'Search')
+      $(btn 'btn btn-outline-success my-2 my-sm-0' 'submit' 'Search')
+    $_form
+  $_nav
+  $(div 'jumbotron')
+    $(btn 'btn btn-primary' 'submit' 'Click Me')
+  $_div
+  $(div 'htvl')
+    $(h 1 '' 'This is HTVL in Action Baby!')
+  $_div
+$(div 'footers')
+  $(footer 'Copyright &copy; 2019 Inzpiro Gaming' '')
+$_div
 $_body
-$(scripts '')
 $_html
 
 ```
 Here is the minimal custom CSS code you need:
 
 ```
-h1{
-    background-color: #0b0b0b;
-    color: yellow;
-    width: 100%;
-    text-align: center;
+* {
+ box-sizing: border-box;
 }
-li {
-    list-style: none;
-    display: in-line;
+*:before,
+*:after {
+ box-sizing: border-box;
 }
-
-.nav-link{
-    color: aliceblue;
+html,
+body {
+ height: 100%;
+ position: relative;
+ background-color: #ffff;
 }
-.navbar {
-    justify-content: between
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
 }
-.footer {
-  position: fixed;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  height: 60px;
-  padding-top: 25px;
-  background-color: #343a40;
-  color: aliceblue;
-}
-.giphy-embed{
-    margin-left: 33%;
-}
-.body{
-    height: auto;
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ color: aliceblue;
+ background-color: #0b0b0b;
+ height: 60px;
+ padding: 15px;
 }
 
-@media screen and (max-width: 900px) {
-    .giphy-embed{
-    margin-left: 5px;
-    padding: 0.5rem;
-    overflow-x: hidden;
-    margin-right: 5px;
-    width: 100%;
-    }
-    .footer {
-    position: fixed;
-    padding-top: 15px;
-    }
-   .body{
-    min-height: 515px;
-   }
+.htvl{
+	background-color: #3366ff;
+	font-family: roboto;
+	color: white;
+	margin-top: 100px;
+	text-align: center;
 }
 ```
 
-You should end-up with the following [neat application](http://fcss.surge.sh/) 
+You should end-up with neat application you saw on the article. 
 
 # Current Progress  
 As at now you can clone the project and use it as much as you want. We will appreciate your feedback on you HTVL compiler.  
