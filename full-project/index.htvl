@@ -1,0 +1,87 @@
+$DOCTYPE_htvl
+$htvl
+$(comment 'headtags')
+$head
+  $headtags
+  $(link stylesheet 'text/css' $(bsCdn '4.3.1'))
+  $(link stylesheet 'text/css' '../assets/proto.css')
+$_head
+$(comment 'end headtags')
+$body
+$(comment 'navbar')
+$(nav 'navbar navbar-expand-md bg-dark navbar-dark')
+  $(a 'navbar-brand' './' '' '' '' '' '')$(img '../assets/img/htvl-logo.png')$_a
+  $(btn 'navbar-toggler' 'button' '' '' 'collapse' '#collapsibleNavbar' '')
+  $(span 'navbar-toggler-icon')
+  $_btn
+  $(div 'collapse navbar-collapse' 'collapsibleNavbar')
+    $(ul 'navbar-nav')
+      ${nav0[@]} 
+    $_ul
+    $(form 'form-inline ml-auto' '' '' 'margin-bottom: 0;')
+      $(input 'form-control mr-sm-2' 'search' '' '' 'Search')
+      $(btn 'btn btn-primary' 'submit' 'SEARCH' '' '' '' 'margin-bottom: 0;')
+      $(a 'btn btn-primary' './login.html' 'Login' '' '' 'true' '')$_a$_btn
+    $_form
+  $_div
+$_nav
+$(comment 'end navbar')
+
+
+
+$(comment 'custom application start')
+$(div 'jumbotron')
+$(div '' 'hero')
+  $(div 'inner')
+    $(div 'right')
+      $(h 1 '' 'framework' 'JetPack| A Linux Web Framework<br>')
+      $(p '' 'headings' '' '')
+        $(a 'button white' 'https://jet-pack.netlify.com/' '' '' '' '' 'GET STARTED')$_a
+        $(a 'button gray has-icon' 'https://github.com/moinonin/jetpack-framework' 'GITHUB' '' '' '' '')
+        $(img '../assets/img/github.png')$_a
+      $_p
+    $_div
+  $_div
+$_div
+
+$(div '' 'special-sponsor')
+  $(h 3 '' '' 'Official Sponsor')
+  $(a '' 'https://inzpirogaming.com/' '' '' '_blank' '' '')
+    $(img './assets/img/inzpiro_web.png' 'inzpirogaming Logo' 'width:160px; height: 80px;')
+  $_a
+  $br
+  $(span '')Our software creates yours. Check our $_span $(a '' '../assets/guide.pdf' 'guide' '' '' '' '')$_a for reference.
+$_div
+$(h 1 '' 'jetpack' 'WHY JETPACK?')
+
+$(div 'features')
+  $(div 'feature')
+    $(h 2 '' '' 'Easy-Peasy')
+    $(p '' '' 'If you already know some HTML, CSS, and JavaScript, combined with a styling tool such as bootstrap, this tool will get you started in no time!')$_p
+  $_div
+  $(div 'feature')
+    $(h 2 '' '' 'Incredibly fast')
+    $(p '' 'content' 'The framework takes up only less than 0.3 mB installed disk capacity. It is therefore cheap computationally, with minimal need for   configuration.')$_p
+  $_div
+  $(div 'feature')
+    $(h 2 '' '' 'High performance')
+    $(p '' 'content' 'The framework takes up only less than 0.3 mB installed disk capacity. It is therefore cheap computationally, with minimal need for   configuration.')$_p
+  $_div
+$_div
+
+$(div 'container')
+  $(div 'row')
+    $(div 'col text-center')
+      $(a 'button whithe' 'https://www.patreon.com/join/nkrtech/checkout' 'SUPPORT' '' '' '' '')$_a
+    $_div
+  $_div
+$_div
+$(comment 'custom application end')   
+$_div
+$(comment 'Footer Elements')
+$(div 'footers')
+  $footer
+$_div
+$(comment 'End footer Elements')
+  $_body
+$_htvl
