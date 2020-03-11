@@ -23,6 +23,7 @@ The function inside htvl script will look like this:
 $(btn 'btn-primary submit' '' 'Delete')
 ```
 First off, we see that the above code is shorter than the original line, bear in mind the extent of reusability, and it will virutally remain the same as long as the same version of bootstrap is valid. You can do the same practically for every component, and all those variables will be stored as a library on our github profile. The directory named full project contains those that we have already implemented and tested. For instance you can already head to the repository and download the two files named "htvl-compiler.sh" and the directory "assets" import them to your project root folder and execute the shell script.  
+NB: You will get a warning that "public" directory allready exist. That is because we have included compiled output of the project just for you to see as the outcome. To test the project yourself, first delete the directory "public" before running the compiler. 
 
 If you do this you will realize the real power of this methodology from this example. Without forgetting, you will still need a minimal css code for this produce good results. The css code is included in the assets directory for this example, but you will need to write your own together with your htvl files. 
 # Usage:
