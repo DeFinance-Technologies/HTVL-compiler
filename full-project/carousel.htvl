@@ -1,0 +1,114 @@
+$DOCTYPE_htvl
+$htvl
+$(comment 'headtags')
+$head
+  $meta
+  $(bscssCdn '4.4.1')
+  $(popjsCdn '1.16.0')
+  $(jqCdn '3.4.1')
+  $(bsjsCdn '4.4.1')
+  $(faCdn '4.7.0') 
+  $(link stylesheet 'text/css' '../assets/proto.css')
+$_head
+$(comment 'end headtags')
+$body
+$(comment 'navbar')
+  $(nav 'navbar navbar-dark bg-dark')
+    $(a 'navbar-brand' '' '' 'Your Brand')$_a
+    $(form 'form-inline')
+      $(input 'form-control mr-sm-2' 'search' 'Search' 'Search')
+      $(btn 'btn btn-outline-success my-2 my-sm-0' 'submit' 'Search')$_btn
+    $_form
+  $_nav
+$(comment 'end navbar')
+$(comment 'Carousel')
+
+$(div 'container text-center' '' '')
+  $(h 1 '' '' 'This is an Example of a Carousel Slide')
+  $(div 'carousel slide' 'demo' '' 'carousel')
+  $(comment 'Indicators')
+    $(ul 'carousel-indicators')
+      $(data-li 'active' '#demo' '0')$_li
+      $(data-li '' '#demo' '1')$_li
+      $(data-li '' '#demo' '2')$_li
+    $_ul
+    $(div 'carousel-inner')
+      $(div 'carousel-item active')
+        $(img 'https://images.freeimages.com/images/large-previews/48d/marguerite-1372118.jpg')
+      $_div
+      $(div 'carousel-item')
+        $(img 'https://images.freeimages.com/images/small-previews/70c/blue-heron-on-rock-1382247.jpg')
+      $_div
+      $(div 'carousel-item')
+        $(img 'https://images.freeimages.com/images/small-previews/7e9/ladybird-1367182.jpg')
+      $_div
+    $_div
+    $(comment 'Left and right controls')
+    $(data-a 'carousel-control-prev' '#demo' 'prev')
+      $(span 'carousel-control-prev-icon')$_span
+    $_a
+    $(data-a 'carousel-control-next' '#demo' 'next')
+      $(span 'carousel-control-next-icon')$_span
+    $_a
+  $_div
+$_div
+$(comment 'End Carousel')
+$(div 'container text-center' '' '')
+$(ul 'pagination')
+  $(li 'page-item')$(a 'page-link' '' './alerts.html' '')Alerts$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './badgesAndLabels.html' '')Badges$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './buttons.html' '')Buttons$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './forms.html' '')Forms$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './grid.html' '')Grids$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './images.html' '')Images$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './navbar.html' '')Navbar$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './progress.html' '')Progress$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './tables.html' '')Tables$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './typography.html' '')Typography$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './wells.html' '')Wells$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './jumbotron.html' '')Jumbotron$_a$_li
+  $(li 'page-item')$(a 'page-link' '' './carousel.html' '')Carousel$_a$_li
+$_ul
+$_div
+$(comment 'footer Elements')
+$(footer 'page-footer font-small special-color-dark pt-4')
+  $(div 'container text-center')
+    $(ul 'list-unstyled list-inline text-center')
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://www.facebook.com/nicolus.rottie.9' '' '' '' '' '')
+          $(i 'fab fa-facebook-f')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://twitter.com/TheRotich' '' '' '' '' '')
+          $(i 'fab fa-twitter')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://scholar.google.fi/citations?user=IJRM18YAAAAJ&hl=en' '' '' '' '' '')
+          $(i 'fab fa-google-plus-g')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://scholar.google.fi/citations?user=IJRM18YAAAAJ&hl=en' '' '' '' '' '')
+          $(i 'fab fa-google-plus-g')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://linkedin.com/in/rotichtheengineer/' '' '' '' '' '')
+          $(i 'fab fa-linkedin-in')
+        $_a
+      $_li
+    $_ul
+  $_div
+  $(div 'footer-copyright text-center py-3')
+    $(p '' '' '' 'margin-bottom: 0;')
+      Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+    $_p
+    $(a '' '' 'https://jet-pack.netlify.com/' 'https://yourcompanyname.com/' '' '' '' '')$_a
+  $_div
+$_footer
+$_body
+$_htvl
+
+

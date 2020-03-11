@@ -20,14 +20,17 @@ $(comment 'navbar')
       $(btn 'btn btn-outline-success my-2 my-sm-0' 'submit' 'Search')$_btn
     $_form
   $_nav
-$(comment 'end navbar')
-$(comment 'Intro')
-$(div 'container text-center' '' '')
-  $(h 1 'Course: Integrating Bootstrap 4.0 with HTVL')
-  $(p '' '' '' 'In this section we will show you how we can integrate Bootstrap with HTVL to come up with incredibly beautiful web pages with ease')$_p
-  $p We will start from preparation of environment, navigation bar, griding, alerts, buttons, forms, jumbotrons, typography, wells, tables and many more.$_p
+$(comment 'end images')
+$(comment 'Typography')
+$(div 'container text-center')
+  $(img 'https://images.freeimages.com/images/large-previews/48d/marguerite-1372118.jpg' 'flower photo' '' 'rounded')
+  $p Rounded corner image$_p
+  $(img 'https://images.freeimages.com/images/small-previews/70c/blue-heron-on-rock-1382247.jpg' 'flower photo' '' 'rounded-circle')
+  $p Rounded circle image$_p
+  $(img 'https://images.freeimages.com/images/small-previews/7e9/ladybird-1367182.jpg' 'flower photo' '' 'img-thumbnail')
+  $p Thumbnail image$_p
 $_div
-$(comment 'End Intro')
+$(comment 'end images')
 $(div 'container text-center' '' '')
 $(ul 'pagination')
   $(li 'page-item')$(a 'page-link' '' './alerts.html' '')Alerts$_a$_li
@@ -47,6 +50,35 @@ $_ul
 $_div
 $(comment 'footer Elements')
 $(footer 'page-footer font-small special-color-dark pt-4')
+  $(div 'container text-center')
+    $(ul 'list-unstyled list-inline text-center')
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://www.facebook.com/nicolus.rottie.9' '' '' '' '' '')
+          $(i 'fab fa-facebook-f')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://twitter.com/TheRotich' '' '' '' '' '')
+          $(i 'fab fa-twitter')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://scholar.google.fi/citations?user=IJRM18YAAAAJ&hl=en' '' '' '' '' '')
+          $(i 'fab fa-google-plus-g')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://scholar.google.fi/citations?user=IJRM18YAAAAJ&hl=en' '' '' '' '' '')
+          $(i 'fab fa-google-plus-g')
+        $_a
+      $_li
+      $(li 'list-inline-item')
+        $(a 'btn-floating btn-fb mx-1' 'https://linkedin.com/in/rotichtheengineer/' '' '' '' '' '')
+          $(i 'fab fa-linkedin-in')
+        $_a
+      $_li
+    $_ul
+  $_div
   $(div 'footer-copyright text-center py-3')
     $(p '' '' '' 'margin-bottom: 0;')
       Copyright &copy; <script>document.write(new Date().getFullYear())</script>
@@ -56,5 +88,3 @@ $(footer 'page-footer font-small special-color-dark pt-4')
 $_footer
 $_body
 $_htvl
-
-
